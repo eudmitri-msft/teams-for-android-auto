@@ -7,6 +7,7 @@ Ux: Jordan Nelson
 |Term|Definition|
 |---|---|
 |MVP|Minimum Viable Product|
+|AA|Android Auto|
 
 ## Scope
 Producing a MVP for the Summer 2019 Microsoft Hackathon, that can be iterated further.
@@ -15,16 +16,12 @@ Producing a MVP for the Summer 2019 Microsoft Hackathon, that can be iterated fu
 ## Feature Overview
 
 ### MVP
-* Ability to have an audio notification of meeting requests.
+* Audio notification of meeting requests.
+* Visual notification of meeting requests on the main Android Auto screen.
+* Ability to accept meeting requests, hear the audio and have a mutable mic.
+* Ability to see the meeting participants.
+* Ability to see meeting chat.
 
-
-
-* Behavior - one of the AWA defined Behaviors
-* ActionType - one of the AWA defined ActionTypes
-* Content - will be a json object containing
-    * EventName - the name of the telemetry event
-    * Data - a bag containing any information for the event
-* IsMaunal - set to true for all custom events
-* Metadata - Metadata tags defined in the AWA Metatag Dictionary
-
-![WEDCS Click Event](./images/VirtualAgentMessage.png)
+### Preliminary UX concepts
+* Main AA screen
+* ![Main AA screen](./img/main_aa.svg)
